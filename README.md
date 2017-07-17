@@ -1,2 +1,2 @@
 # SoundSharp
-soundsharp maar dan in java
+### SoundSharp project in Java.
