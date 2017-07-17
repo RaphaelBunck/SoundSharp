@@ -24,7 +24,7 @@
         <configuration>
           <archive>
             <manifest>
-              <mainClass>nl.ceule.soundsharp.App</mainClass>
+              <mainClass>nl.rabaelo.soundsharp.App</mainClass>
             </manifest>
           </archive>
         </configuration>
