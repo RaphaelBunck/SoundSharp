@@ -1,0 +1,2 @@
+Name: SoundSharp
+Main-Class: nl.rabaelo.soundsharp.App
