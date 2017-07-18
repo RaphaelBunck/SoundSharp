@@ -1,15 +1,12 @@
 package nl.rabaelo.soundsharp;
 
-import java.io.Console;
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
         Menu menu = new Menu();
+        Auth auth = new Auth();
         String name = menu.welcome();
 
-        if (menu.logIn()) {
+        if (auth.isLoggedIn()) {
             System.out.println("Welcome to SoundSharp, " + name);
         }
 
