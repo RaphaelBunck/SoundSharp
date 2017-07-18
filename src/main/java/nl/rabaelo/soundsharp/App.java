@@ -26,5 +26,7 @@ public class App {
                 System.out.println("Enter a number (1-9).");
             }
         }
+
+        Database.getData();
     }
 }
