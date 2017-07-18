@@ -12,7 +12,7 @@ class Database {
     private Database.mp3_data mp3Data = new Database.mp3_data();
     private GsonBuilder builder = new GsonBuilder();
 
-     static class mp3_data {
+    static class mp3_data {
         int ID;
         String Make;
         String Model;
@@ -21,7 +21,7 @@ class Database {
         String[] errors = new String[]{};
     }
 
-     void getData() {
+    void getData() {
         Gson gson = builder.create();
         builder.setPrettyPrinting().serializeNulls();
         System.out.println(gson.toJson(mp3Data));
@@ -43,7 +43,7 @@ class Database {
 
         System.out.println("\nIs this data correct? (Y/N)");
         System.out.println(gson.toJson(mp3Data));
-        if(scanner.next().equals("Y")) {
+        if (scanner.next().equals("Y")) {
             try {
                 System.out.println("Save as?");
                 Writer writer = new FileWriter("json/" + scanner.next() + ".json");

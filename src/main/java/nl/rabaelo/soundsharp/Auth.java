@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 class Auth {
     private Menu menu = new Menu();
+
     Boolean isLoggedIn() {
         int x = 0;
         System.out.println("Try: " + "(" + (3 - x) + "/3)");
