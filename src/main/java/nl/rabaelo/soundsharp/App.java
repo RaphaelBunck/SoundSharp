@@ -12,16 +12,19 @@ public class App {
             System.out.println("Welcome to SoundSharp, " + name);
         }
 
-        int x = 1;
-        while (x == 1) {
+        while (true) {
             try {
                 switch (menu.options()) {
-                    case 1:
-                        System.out.println("Dit moet iets doen XDXD");
-                        x = 0;
-                        break;
+//                    case 1:
+//                        database.getData();
                     case 2:
-                        database.storeData();
+                        database.toJson();
+                    case 3:
+                        database.jsonToArray();
+                    case 4:
+                        database.newJson();
+                    case 8:
+//                       database.newJson();
                     case 9:
                         System.exit(0);
                         break;

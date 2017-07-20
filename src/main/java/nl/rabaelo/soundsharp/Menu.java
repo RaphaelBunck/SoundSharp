@@ -19,7 +19,7 @@ class Menu {
 
     int options() {
         System.out.println("1. Overview MP3 players.");
-        System.out.println("2.");
+        System.out.println("2. Add Mp3 players to database");
         System.out.println("3.");
         System.out.println("4.");
         System.out.println("5.");
